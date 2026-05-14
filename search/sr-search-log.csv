@@ -1,0 +1,6 @@
+Database,Date Run,Search String,Hits,After Dedup,Notes
+PubMed,2026-05-14,"Rib fractures + elderly + treatment",482,,"Primary search - exported to search/pubmed-results.medline"
+Cochrane CENTRAL,TBD,"Rib fractures + elderly + treatment",TBD, TBD, "Manual search via cochranelibrary.com"
+Scopus,TBD,"Rib fractures + elderly + treatment",TBD,TBD,"Alternative to EMBASE"
+ClinicalTrials.gov,TBD,"rib fracture AND (surgical stabilization OR SSRF)",TBD,TBD,"Grey literature"
+Total,,,,," "
