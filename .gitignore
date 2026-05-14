@@ -1,0 +1,8 @@
+node_modules/
+.Rhistory
+.RData
+.Rproj.user/
+*.csv~
+*.ris~
+.DS_Store
+Thumbs.db
