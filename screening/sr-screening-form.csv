@@ -1,0 +1,6 @@
+question,type,options,notes
+"Is the population ≥65 years with traumatic rib fracture(s)?","single_select","Yes,No,Unclear","Population must include or have subgroup aged ≥65"
+"Is there a surgical stabilization intervention (SSRF/rib fixation/rib plating)?","single_select","Yes,No,Unclear","Any surgical rib fixation technique"
+"Is there a non-operative comparator group?","single_select","Yes,No,Unclear","Must have a non-surgical comparison arm"
+"Is the study design eligible? (RCT, cohort, case-control, before-after)","single_select","Yes,No,Unclear","Reviews, editorials, case reports <10 patients excluded"
+"Is this clearly irrelevant? (animal, cadaver, pediatric only)","single_select","Yes,No","If Yes, exclude immediately"
