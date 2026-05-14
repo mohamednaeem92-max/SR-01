@@ -3,7 +3,7 @@
 | # | Item | Status |
 |---|------|--------|
 | 1 | Database names: PubMed, Cochrane CENTRAL, Scopus | ✅ |
-| 2 | Multi-database searching | ✅ Planned |
+| 2 | Multi-database searching | ✅ PubMed primary + supplementary |
 | 3 | Full search strategies for each database | ✅ PubMed documented |
 | 4 | Exact search date per database | ✅ PubMed: 2026-05-14 |
 | 5 | Limits applied (language, date, etc.) | None applied at search stage |
@@ -12,5 +12,5 @@
 | 8 | Citation management (MEDLINE format exported) | ✅ |
 | 9 | Deduplication method | Python script (RIS processing) |
 | 10 | Peer review of search strategy | TBD |
-| 11 | Total records after deduplication | TBD |
+| 11 | Total records after deduplication | 1132 (482 primary + 650 supplementary) |
 | 12 | PRISMA flow diagram | Planned (Phase 4) |

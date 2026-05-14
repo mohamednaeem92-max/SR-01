@@ -32,6 +32,54 @@
 
 ---
 
+## Database: PubMed (Supplementary — SSRF All Ages)
+
+**Date run:** 2026-05-14
+**Hits:** 979 (650 new PMIDs not in primary search)
+
+### Purpose
+Capture SSRF studies in any age population that may contain subgroup data for patients ≥65 years.
+
+### String
+```
+(("Rib Fractures"[MeSH] OR "Flail Chest"[MeSH] OR rib fracture*[tiab]
+  OR flail chest[tiab] OR chest wall injur*[tiab])
+ AND
+  ("Fracture Fixation, Internal"[MeSH] OR "Bone Plates"[MeSH]
+  OR surgical stabilization[tiab] OR rib fixation[tiab] OR rib plating[tiab]
+  OR SSRF[tiab] OR internal fixation[tiab] OR ORIF[tiab]
+  OR operative fixation[tiab] OR open reduction[tiab]))
+```
+
+### Notes
+- No age restriction — captures all SSRF studies regardless of population age
+- Studies with elderly subgroup data will be identified during screening
+- Combined with primary search: 1132 unique records for screening
+
+---
+
+## Supplementary AI Tool Searches
+
+### Consensus.app
+- URL: https://consensus.app
+- Search query: "surgical stabilization of rib fractures in elderly patients"
+- Coverage: Aggregates PubMed/MEDLINE, Semantic Scholar, OpenAlex (220M+ papers)
+- Results: Papers already indexed in PubMed primary search
+- Export: Via Zotero/Endnote citation export
+
+### SciSpace
+- URL: https://scispace.com
+- Search via PubMed Agent
+- Coverage: Aggregates 280M+ papers
+- Results: Papers already indexed in PubMed primary search
+
+### Semantic Scholar
+- URL: https://api.semanticscholar.org
+- Search query: "surgical stabilization rib fractures elderly"
+- Results: ~50 relevant papers, ~48 with PubMed IDs (all overlap with PubMed primary search)
+
+---
+
 ## Database: Cochrane CENTRAL
 
 **Planned:** Search via cochranelibrary.com
